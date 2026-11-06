@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_noun_164" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2EAF5"/>
+      <stop offset="100%" stop-color="#DFC0E7"/>
+    </linearGradient>
+    <filter id="cardShadow_noun_164" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_noun_164)" stroke="#4A148C" stroke-width="2.5" filter="url(#cardShadow_noun_164)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#E1BEE7" stroke="#4A148C" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#4A148C" text-anchor="middle" letter-spacing="0.3">HOGAR Y ROPA</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#4A148C" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">noun_164</text>
+  </g>
+
+  <!-- Procedural Decorative Aura Pattern -->
+  <g opacity="0.16" fill="none" stroke="#7B1FA2" stroke-width="1.8" stroke-linecap="round"><path d="M52,150 Q65,110 50,80"/><path d="M188,150 Q175,110 190,80"/></g>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art">
+    <g id="tejado_roof"><rect x="68" y="114" width="104" height="52" fill="#FFF3E0" stroke="#5D4037" stroke-width="2.8"/><path d="M98,166 L98,132 A22,22 0 0,1 142,132 L142,166 Z" fill="#5D4037"/><polygon points="52,114 78,68 162,68 188,114" fill="#D84315" stroke="#870000" stroke-width="3" stroke-linejoin="round"/><path d="M68,90 Q80,96 92,90 T116,90 T140,90 T164,90 M58,108 Q72,114 86,108 T114,108 T142,108 T170,108" fill="none" stroke="#870000" stroke-width="2.5"/></g>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#4A148C" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="800" fill="#212121" text-anchor="middle">roof</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">tejado, portal</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#4A148C" text-anchor="middle">[ nixung ]</text>
+  </g>
+</svg>

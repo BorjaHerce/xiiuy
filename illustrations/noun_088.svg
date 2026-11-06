@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_noun_088" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0EAF5"/>
+      <stop offset="100%" stop-color="#D2C0E7"/>
+    </linearGradient>
+    <filter id="cardShadow_noun_088" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_noun_088)" stroke="#4A148C" stroke-width="2.5" filter="url(#cardShadow_noun_088)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#E1BEE7" stroke="#4A148C" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#4A148C" text-anchor="middle" letter-spacing="0.3">HOGAR Y ROPA</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#4A148C" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">noun_088</text>
+  </g>
+
+  <!-- Procedural Decorative Aura Pattern -->
+  <g opacity="0.16"><circle cx="120" cy="115" r="68" fill="none" stroke="#7B1FA2" stroke-width="2" stroke-dasharray="4,6"/><line x1="120" y1="42" x2="120" y2="188" stroke="#7B1FA2" stroke-width="1.5" stroke-dasharray="3,5"/><line x1="47" y1="115" x2="193" y2="115" stroke="#7B1FA2" stroke-width="1.5" stroke-dasharray="3,5"/></g>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art">
+    <g id="cincolote_silo"><line x1="82" y1="150" x2="82" y2="168" stroke="#4E342E" stroke-width="6" stroke-linecap="round"/><line x1="158" y1="150" x2="158" y2="168" stroke="#4E342E" stroke-width="6" stroke-linecap="round"/><rect x="76" y="78" width="88" height="74" rx="4" fill="#FFD54F" stroke="#6D4C41" stroke-width="3"/><line x1="76" y1="94" x2="164" y2="94" stroke="#8D6E63" stroke-width="3"/><line x1="76" y1="112" x2="164" y2="112" stroke="#8D6E63" stroke-width="3"/><line x1="76" y1="130" x2="164" y2="130" stroke="#8D6E63" stroke-width="3"/><line x1="98" y1="78" x2="98" y2="152" stroke="#6D4C41" stroke-width="4"/><line x1="142" y1="78" x2="142" y2="152" stroke="#6D4C41" stroke-width="4"/><polygon points="66,78 120,46 174,78" fill="#8D6E63" stroke="#3E2723" stroke-width="3" stroke-linejoin="round"/></g>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#4A148C" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="800" fill="#212121" text-anchor="middle">silo</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">silo de grano, chapil, cincolote</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#4A148C" text-anchor="middle">[ micha&apos; ]</text>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_noun_078" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7ECE9"/>
+      <stop offset="100%" stop-color="#EAD1B8"/>
+    </linearGradient>
+    <filter id="cardShadow_noun_078" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_noun_078)" stroke="#4E342E" stroke-width="2.5" filter="url(#cardShadow_noun_078)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#FFE0B2" stroke="#4E342E" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#4E342E" text-anchor="middle" letter-spacing="0.3">ANIMALES</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#4E342E" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">noun_078</text>
+  </g>
+
+  <!-- Procedural Decorative Aura Pattern -->
+  <g opacity="0.18" fill="#D84315"><circle cx="55" cy="80" r="3.5"/><circle cx="175" cy="73" r="3.5"/><polygon points="120,46 122,41 127,39 122,37 120,32 118,37 113,39 118,41"/></g>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art">
+    <g id="camaron_shrimp"><path d="M96,148 L72,164 L78,144 Z" fill="#FF5252" stroke="#C62828" stroke-width="2.2"/><path d="M94,142 L68,148 L78,132 Z" fill="#FF5252" stroke="#C62828" stroke-width="2.2"/><path d="M92,146 C68,112 88,68 134,72 C164,74 172,102 146,114 C128,120 116,104 108,118 C102,128 108,142 92,146 Z" fill="#FF8A65" stroke="#D84315" stroke-width="3" stroke-linejoin="round"/><path d="M98,108 Q112,114 114,122 M108,88 Q120,98 120,108 M128,74 Q134,90 130,102" fill="none" stroke="#D84315" stroke-width="2.5"/><circle cx="152" cy="88" r="4" fill="#212121"/><path d="M160,84 C180,72 190,54 176,44 M162,92 C184,88 194,74 188,60" fill="none" stroke="#D84315" stroke-width="2.2" stroke-linecap="round"/><path d="M126,114 L132,130 M134,114 L142,128 M142,112 L152,124" stroke="#D84315" stroke-width="2.5" stroke-linecap="round"/></g>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#4E342E" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="800" fill="#212121" text-anchor="middle">shrimp</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">camarón</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#4E342E" text-anchor="middle">[ matai ]</text>
+  </g>
+</svg>

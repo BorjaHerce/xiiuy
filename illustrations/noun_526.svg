@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_noun_526" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E6F4E6"/>
+      <stop offset="100%" stop-color="#B3E6B8"/>
+    </linearGradient>
+    <filter id="cardShadow_noun_526" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_noun_526)" stroke="#1B5E20" stroke-width="2.5" filter="url(#cardShadow_noun_526)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#C8E6C9" stroke="#1B5E20" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#1B5E20" text-anchor="middle" letter-spacing="0.3">PLANTAS Y NATURALEZA</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#1B5E20" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">noun_526</text>
+  </g>
+
+  <!-- Procedural Decorative Aura Pattern -->
+  <g opacity="0.18" fill="#2E7D32"><circle cx="55" cy="80" r="3.5"/><circle cx="175" cy="73" r="3.5"/><polygon points="120,46 122,41 127,39 122,37 120,32 118,37 113,39 118,41"/></g>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art">
+    <g id="noun_526_art" transform="translate(0,-1) rotate(1.8 120 115)"><polygon points="120,66 132,102 168,102 138,124 150,160 120,138 90,160 102,124 72,102 108,102" fill="#FFE082" stroke="#8D6E63" stroke-width="3"/><circle cx="120" cy="118" r="14" fill="#AED581" stroke="#33691E" stroke-width="2"/></g>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#1B5E20" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="800" fill="#212121" text-anchor="middle">craft</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">artesania (de palma)</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#1B5E20" text-anchor="middle">[ tsuljue&apos;ei ]</text>
+  </g>
+</svg>

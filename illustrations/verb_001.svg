@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_verb_001" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F2F1"/>
+      <stop offset="100%" stop-color="#B2DFDB"/>
+    </linearGradient>
+    <filter id="cardShadow_verb_001" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_verb_001)" stroke="#004D40" stroke-width="2.5" filter="url(#cardShadow_verb_001)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#B2DFDB" stroke="#004D40" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#004D40" text-anchor="middle" letter-spacing="0.3">ACCIONES Y VERBOS</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#004D40" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">verb_001</text>
+  </g>
+
+  <!-- Decorative Aura -->
+  <circle cx="120" cy="108" r="58" fill="rgba(255,255,255,0.42)" stroke="#004D40" stroke-width="1" stroke-dasharray="4,4" opacity="0.55"/>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art-verb_001">
+    <line x1="60" y1="62" x2="180" y2="62" stroke="#37474F" stroke-width="5" stroke-linecap="round"/><rect x="48" y="46" width="14" height="32" rx="4" fill="#263238" stroke="#000" stroke-width="2"/><rect x="178" y="46" width="14" height="32" rx="4" fill="#263238" stroke="#000" stroke-width="2"/><path d="M92,120 C75,105 78,80 86,62" fill="none" stroke="#FFCCBC" stroke-width="10" stroke-linecap="round"/><path d="M148,120 C165,105 162,80 154,62" fill="none" stroke="#FFCCBC" stroke-width="10" stroke-linecap="round"/><rect x="100" y="114" width="40" height="44" rx="12" fill="#EF5350" stroke="#B71C1C" stroke-width="2.4"/><circle cx="120" cy="96" r="18" fill="#FFCCBC" stroke="#3E2723" stroke-width="2.4"/><path d="M102,94 C102,74 138,74 138,94 C129,86.1 111,86.1 102,94 Z" fill="#3E2723" stroke="#263238" stroke-width="2"/><ellipse cx="110.5" cy="99.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><ellipse cx="129.5" cy="99.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><circle cx="114.5" cy="95" r="2.4" fill="#263238"/><circle cx="125.5" cy="95" r="2.4" fill="#263238"/><circle cx="113.8" cy="94.2" r="0.9" fill="#FFFFFF"/><circle cx="124.8" cy="94.2" r="0.9" fill="#FFFFFF"/><path d="M115,101.5 Q120,106.5 125,101.5" fill="none" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/><polygon points="55,86 57.52,92.48 64,95 57.52,97.52 55,104 52.48,97.52 46,95 52.48,92.48" fill="#FFD54F" stroke="#F57F17" stroke-width="1"/><polygon points="185,86 187.52,92.48 194,95 187.52,97.52 185,104 182.48,97.52 176,95 182.48,92.48" fill="#FFD54F" stroke="#F57F17" stroke-width="1"/><polygon points="120,41 121.96,46.04 127,48 121.96,49.96 120,55 118.04,49.96 113,48 118.04,46.04" fill="#FFD54F" stroke="#F57F17" stroke-width="1"/>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#004D40" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="800" fill="#212121" text-anchor="middle">able to</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">poder / ser capaz de</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#004D40" text-anchor="middle">[ tuju&apos;u ]</text>
+  </g>
+</svg>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_noun_105" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7EDE8"/>
+      <stop offset="100%" stop-color="#EDCAB6"/>
+    </linearGradient>
+    <filter id="cardShadow_noun_105" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_noun_105)" stroke="#BF360C" stroke-width="2.5" filter="url(#cardShadow_noun_105)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#FFCCBC" stroke="#BF360C" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#BF360C" text-anchor="middle" letter-spacing="0.3">PERSONAS, PARENTESCO Y SOCIEDAD</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#BF360C" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">noun_105</text>
+  </g>
+
+  <!-- Procedural Decorative Aura Pattern -->
+  <g opacity="0.14"><polygon points="120,50 182,115 120,180 58,115" fill="none" stroke="#D84315" stroke-width="2"/><polygon points="120,64 168,115 120,166 72,115" fill="none" stroke="#D84315" stroke-width="1.2" stroke-dasharray="4,4"/></g>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art">
+    <g id="tenek_person"><ellipse cx="120" cy="64" rx="26" ry="10" fill="#E53935" stroke="#880E4F" stroke-width="2.5"/><ellipse cx="120" cy="64" rx="18" ry="6" fill="#43A047"/><circle cx="120" cy="84" r="20" fill="#FFE0B2" stroke="#4E342E" stroke-width="2.8"/><circle cx="113" cy="83" r="2.2" fill="#212121"/><circle cx="127" cy="83" r="2.2" fill="#212121"/><path d="M115,91 Q120,96 125,91" stroke="#BF360C" stroke-width="2" fill="none"/><polygon points="82,144 120,164 158,144 144,104 96,104" fill="#FFFFFF" stroke="#37474F" stroke-width="2.8" stroke-linejoin="round"/><polygon points="120,118 128,126 120,134 112,126" fill="#E53935"/><polygon points="104,128 110,134 104,140 98,134" fill="#FB8C00"/><polygon points="136,128 142,134 136,140 130,134" fill="#43A047"/></g>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#BF360C" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="800" fill="#212121" text-anchor="middle">Tenek</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">indio huasteco, tenek</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#BF360C" text-anchor="middle">[ ngunjei&apos; ]</text>
+  </g>
+</svg>

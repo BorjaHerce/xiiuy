@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_verb_113" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F1F8E9"/>
+      <stop offset="100%" stop-color="#DCEDC8"/>
+    </linearGradient>
+    <filter id="cardShadow_verb_113" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_verb_113)" stroke="#1B5E20" stroke-width="2.5" filter="url(#cardShadow_verb_113)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#DCEDC8" stroke="#1B5E20" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#1B5E20" text-anchor="middle" letter-spacing="0.3">ACCIONES Y VERBOS</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#1B5E20" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">verb_113</text>
+  </g>
+
+  <!-- Decorative Aura -->
+  <circle cx="120" cy="108" r="58" fill="rgba(255,255,255,0.42)" stroke="#1B5E20" stroke-width="1" stroke-dasharray="4,4" opacity="0.55"/>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art-verb_113">
+    <rect x="58" y="114" width="32" height="42" rx="12" fill="#42A5F5" stroke="#1565C0" stroke-width="2.4"/><circle cx="74" cy="92" r="16" fill="#FFCCBC" stroke="#3E2723" stroke-width="2.4"/><path d="M58,90 C58,72 90,72 90,90 C82,83.2 66,83.2 58,90 Z" fill="#3E2723" stroke="#263238" stroke-width="2"/><ellipse cx="64.5" cy="95.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><ellipse cx="83.5" cy="95.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><circle cx="71.5" cy="91" r="2.4" fill="#263238"/><circle cx="82.5" cy="91" r="2.4" fill="#263238"/><circle cx="70.8" cy="90.2" r="0.9" fill="#FFFFFF"/><circle cx="81.8" cy="90.2" r="0.9" fill="#FFFFFF"/><path d="M69,97.5 Q74,102.5 79,97.5" fill="none" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/><rect x="150" y="114" width="32" height="42" rx="12" fill="#66BB6A" stroke="#2E7D32" stroke-width="2.4"/><circle cx="166" cy="92" r="16" fill="#FFCCBC" stroke="#3E2723" stroke-width="2.4"/><path d="M150,90 C150,72 182,72 182,90 C174,83.2 158,83.2 150,90 Z" fill="#3E2723" stroke="#263238" stroke-width="2"/><ellipse cx="156.5" cy="95.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><ellipse cx="175.5" cy="95.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><circle cx="157.5" cy="91" r="2.4" fill="#263238"/><circle cx="168.5" cy="91" r="2.4" fill="#263238"/><circle cx="156.8" cy="90.2" r="0.9" fill="#FFFFFF"/><circle cx="167.8" cy="90.2" r="0.9" fill="#FFFFFF"/><path d="M161,97.5 Q166,102.5 171,97.5" fill="none" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/><path d="M96,82 Q120,68 144,82" fill="none" stroke="#1E88E5" stroke-width="3.2" stroke-linecap="round"/><polygon points="144,82 135.004,81.7474 139.352,74.2932" fill="#1E88E5"/><path d="M144,102 Q120,116 96,102" fill="none" stroke="#43A047" stroke-width="3.2" stroke-linecap="round"/><polygon points="96,102 104.996,102.253 100.648,109.707" fill="#43A047"/><polygon points="120,47 122.52,53.48 129,56 122.52,58.52 120,65 117.48,58.52 111,56 117.48,53.48" fill="#FFD54F" stroke="#F57F17" stroke-width="1"/>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#1B5E20" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="800" fill="#212121" text-anchor="middle">understand/listen each other/self</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">entenderse / escucharse mutuamente</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#1B5E20" text-anchor="middle">[ ti&apos;yu&apos; ]</text>
+  </g>
+</svg>
+

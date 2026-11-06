@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_noun_003" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7EAE8"/>
+      <stop offset="100%" stop-color="#EDCFB6"/>
+    </linearGradient>
+    <filter id="cardShadow_noun_003" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_noun_003)" stroke="#BF360C" stroke-width="2.5" filter="url(#cardShadow_noun_003)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#FFCCBC" stroke="#BF360C" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#BF360C" text-anchor="middle" letter-spacing="0.3">PERSONAS, PARENTESCO Y SOCIEDAD</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#BF360C" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">noun_003</text>
+  </g>
+
+  <!-- Procedural Decorative Aura Pattern -->
+  <g opacity="0.15" stroke="#D84315" fill="none"><circle cx="120" cy="115" r="72" stroke-width="1.5"/><circle cx="120" cy="115" r="52" stroke-width="1.2" stroke-dasharray="5,4"/></g>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art">
+    <g id="doctor_art"><ellipse cx="120" cy="82" rx="24" ry="22" fill="#FFE0B2" stroke="#37474F" stroke-width="3"/><path d="M96,75 C96,55 144,55 144,75 C135,68 105,68 96,75 Z" fill="#37474F"/><circle cx="111" cy="82" r="3" fill="#263238"/><circle cx="129" cy="82" r="3" fill="#263238"/><path d="M115,92 Q120,98 125,92" stroke="#D84315" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M92,106 L80,172 L160,172 L148,106 Z" fill="#FFFFFF" stroke="#37474F" stroke-width="3"/><path d="M106,106 C106,136 134,136 134,106" fill="none" stroke="#546E7A" stroke-width="3.5" stroke-linecap="round"/><circle cx="120" cy="140" r="6" fill="#CFD8DC" stroke="#37474F" stroke-width="2"/><rect x="136" y="132" width="14" height="14" rx="2" fill="#E53935"/><line x1="143" y1="135" x2="143" y2="143" stroke="#FFFFFF" stroke-width="2.5"/><line x1="139" y1="139" x2="147" y2="139" stroke="#FFFFFF" stroke-width="2.5"/></g>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#BF360C" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="800" fill="#212121" text-anchor="middle">doctor</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">doctor</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#BF360C" text-anchor="middle">[ kade ]</text>
+  </g>
+</svg>

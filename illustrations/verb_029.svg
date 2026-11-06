@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_verb_029" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F1F8E9"/>
+      <stop offset="100%" stop-color="#DCEDC8"/>
+    </linearGradient>
+    <filter id="cardShadow_verb_029" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_verb_029)" stroke="#1B5E20" stroke-width="2.5" filter="url(#cardShadow_verb_029)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#DCEDC8" stroke="#1B5E20" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#1B5E20" text-anchor="middle" letter-spacing="0.3">ACCIONES Y VERBOS</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#1B5E20" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">verb_029</text>
+  </g>
+
+  <!-- Decorative Aura -->
+  <circle cx="120" cy="108" r="58" fill="rgba(255,255,255,0.42)" stroke="#1B5E20" stroke-width="1" stroke-dasharray="4,4" opacity="0.55"/>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art-verb_029">
+    <ellipse cx="144" cy="148" rx="34" ry="12" fill="#3E2723"/><path d="M154,146 Q174,122 194,146 Z" fill="#8D6E63" stroke="#4E342E" stroke-width="2"/><rect x="67" y="106" width="34" height="44" rx="12" fill="#FFA726" stroke="#E65100" stroke-width="2.4"/><circle cx="84" cy="82" r="16" fill="#FFCCBC" stroke="#3E2723" stroke-width="2.4"/><path d="M68,80 C68,62 100,62 100,80 C92,73.2 76,73.2 68,80 Z" fill="#3E2723" stroke="#263238" stroke-width="2"/><ellipse cx="74.5" cy="85.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><ellipse cx="93.5" cy="85.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><circle cx="81.5" cy="81" r="2.4" fill="#263238"/><circle cx="92.5" cy="81" r="2.4" fill="#263238"/><circle cx="80.8" cy="80.2" r="0.9" fill="#FFFFFF"/><circle cx="91.8" cy="80.2" r="0.9" fill="#FFFFFF"/><path d="M79,87.5 Q84,92.5 89,87.5" fill="none" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/><path d="M98,74 C104,82 102,86 98,86 C94,86 92,82 98,74 Z" fill="#29B6F6" stroke="#0277BD" stroke-width="1.2"/><line x1="72" y1="102" x2="136" y2="138" stroke="#6D4C41" stroke-width="5" stroke-linecap="round"/><path d="M130,128 L150,136 L142,150 L124,142 Z" fill="#90A4AE" stroke="#37474F" stroke-width="2"/><circle cx="158" cy="112" r="4" fill="#6D4C41"/><circle cx="170" cy="118" r="5" fill="#6D4C41"/>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#1B5E20" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="800" fill="#212121" text-anchor="middle">dig</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">cavar / escarbar</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#1B5E20" text-anchor="middle">[ la&apos;e&apos;et ]</text>
+  </g>
+</svg>
+

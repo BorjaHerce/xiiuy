@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_verb_061" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F2F1"/>
+      <stop offset="100%" stop-color="#B2DFDB"/>
+    </linearGradient>
+    <filter id="cardShadow_verb_061" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_verb_061)" stroke="#004D40" stroke-width="2.5" filter="url(#cardShadow_verb_061)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#B2DFDB" stroke="#004D40" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#004D40" text-anchor="middle" letter-spacing="0.3">ACCIONES Y VERBOS</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#004D40" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">verb_061</text>
+  </g>
+
+  <!-- Decorative Aura -->
+  <circle cx="120" cy="108" r="58" fill="rgba(255,255,255,0.42)" stroke="#004D40" stroke-width="1" stroke-dasharray="4,4" opacity="0.55"/>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art-verb_061">
+    <rect x="142" y="82" width="32" height="68" rx="6" fill="#A1887F" stroke="#4E342E" stroke-width="2.4"/><line x1="64" y1="92" x2="132" y2="96" stroke="#8D6E63" stroke-width="6" stroke-linecap="round"/><line x1="64" y1="114" x2="132" y2="114" stroke="#8D6E63" stroke-width="6" stroke-linecap="round"/><line x1="64" y1="136" x2="132" y2="132" stroke="#8D6E63" stroke-width="6" stroke-linecap="round"/><polygon points="138,82 141.36,90.64 150,94 141.36,97.36 138,106 134.64,97.36 126,94 134.64,90.64" fill="#FF5252" stroke="#F57F17" stroke-width="1"/><polygon points="140,100 143.92,110.08 154,114 143.92,117.92 140,128 136.08,117.92 126,114 136.08,110.08" fill="#FFD54F" stroke="#F57F17" stroke-width="1"/><polygon points="138,122 141.36,130.64 150,134 141.36,137.36 138,146 134.64,137.36 126,134 134.64,130.64" fill="#FF5252" stroke="#F57F17" stroke-width="1"/>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#004D40" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="800" fill="#212121" text-anchor="middle">hit PL</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">pegar / golpear (varias veces)</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#004D40" text-anchor="middle">[ lapaiñ ]</text>
+  </g>
+</svg>
+

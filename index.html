@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Diccionario Ilustrado Xi'iuy | Central Pame Interactive Dictionary</title>
+
+  <!-- Progressive Web App (PWA) & Mobile Home-Screen Meta Tags -->
+  <meta name="theme-color" content="#0f766e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Xi'iuy">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="illustrations/app_icon.svg">
+  <link rel="apple-touch-icon" href="illustrations/app_icon.svg">
+  
+  <!-- Modern Clean Fonts & Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Charis+SIL:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=9">
+  
+  <!-- Preload master dictionary JS for instantaneous offline file:// support -->
+  <script src="data/xiiuy_dictionary.js?v=9"></script>
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="header-brand">
+        <div class="brand-icon">X</div>
+        <div class="brand-text">
+          <h1 data-i18n="appTitle">Diccionario Ilustrado Xi'iuy</h1>
+          <p data-i18n="appSubtitle">Pame Central (Oto-mangue) · Santa María Acapulco, San Luis Potosí</p>
+        </div>
+      </div>
+      
+      <div class="header-actions">
+        <span class="badge" style="background: rgba(255,255,255,0.18); color: #ffffff; padding: 0.4rem 0.8rem; font-size: 0.82rem;" id="statsBadge" data-i18n="statsBadge">
+          892 Palabras (676 Sustantivos · 216 Verbos)
+        </span>
+        
+        <button class="btn-secondary" id="helpBtn">
+          <span>📖</span> <span data-i18n="helpBtn">Guía de Ortografía</span>
+        </button>
+
+        <button class="btn-secondary" id="citeBtn">
+          <span>📜</span> <span data-i18n="citeBtn">Autoría y cómo citar</span>
+        </button>
+        
+        <div class="lang-switch" role="group" aria-label="Language Selector">
+          <button class="lang-btn active" data-lang="es">ES</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Control & Filter Panel -->
+  <section class="controls-panel">
+    <div class="controls-container">
+      
+      <!-- Search & Citation Form Row -->
+      <div class="search-row">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="searchInput" class="search-input" 
+                 data-i18n-placeholder="searchPlaceholder" 
+                 placeholder="Buscar por español, inglés, ortografía fonémica o local xi'iuy..." 
+                 autocomplete="off" spellcheck="false">
+          <button class="search-clear" id="searchClear" title="Clear search">×</button>
+        </div>
+        
+        <!-- Citation Form Selector -->
+        <div class="citation-selector">
+          <label for="citationSelect" data-i18n="citationLabel">Forma de Citación:</label>
+          <select id="citationSelect" class="citation-dropdown">
+            <option value="default" data-i18n="citDefault">Primera forma por defecto</option>
+            <option value="unposs_sg" data-i18n="citUnpossSg">No poseído SG (Sustantivos)</option>
+            <option value="poss_1sg" data-i18n="cit1Sg">1SG (Mi / Yo)</option>
+            <option value="poss_3sg" data-i18n="cit3Sg">3SG (Su / Él)</option>
+            <option value="imp_2sg" data-i18n="cit2SgImp">2SG Imperativo (Verbos)</option>
+          </select>
+        </div>
+      </div>
+      
+      <!-- Filters Row -->
+      <div class="filters-row">
+        <!-- POS Pills -->
+        <div class="pos-pills">
+          <button class="pill-btn active" data-pos="all" data-i18n="posAll">Todos (892)</button>
+          <button class="pill-btn" data-pos="noun" data-i18n="posNouns">Sustantivos (676)</button>
+          <button class="pill-btn" data-pos="verb" data-i18n="posVerbs">Verbos (216)</button>
+        </div>
+        
+        <!-- Semantic Domain Dropdown -->
+        <div class="domain-filter">
+          <select id="domainFilter" class="domain-select">
+            <option value="all" data-i18n="domainAll">Todas las Categorías</option>
+          </select>
+        </div>
+        
+        <!-- Morphological Alternation Type Dropdown -->
+        <div class="alternation-filter">
+          <select id="alternationFilter" class="domain-select" style="min-width: 200px;">
+            <option value="all" data-i18n="altAll">Todos los Tipos</option>
+            <option value="pref_inv" data-i18n="altPrefInv">Prefijo no alternante</option>
+            <option value="pref_alt" data-i18n="altPrefAlt">Prefijo alternante</option>
+            <option value="stem_inv" data-i18n="altStemInv">Tema no alternante</option>
+            <option value="stem_alt" data-i18n="altStemAlt">Tema alternante</option>
+            <option value="tone_inv" data-i18n="altToneInv">Tono no alternante</option>
+            <option value="tone_alt" data-i18n="altToneAlt">Tono alternante</option>
+          </select>
+        </div>
+        
+        <!-- View Toggle (Grid / Table) -->
+        <div class="view-controls">
+          <div class="view-toggle">
+            <button id="btnViewGrid" class="active" title="Grid view" data-i18n-title="viewGrid">
+              ⊞ <span data-i18n="viewGrid">Tarjetas</span>
+            </button>
+            <button id="btnViewTable" title="Table view" data-i18n-title="viewTable">
+              ☰ <span data-i18n="viewTable">Tabla</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Main Content & Results -->
+  <main class="results-container">
+    <div class="results-meta">
+      <div id="resultsCount">Cargando diccionario...</div>
+      <div style="font-size: 0.8rem; color: var(--text-muted);">
+        Presione <kbd style="background: #e2e8f0; padding: 0.15rem 0.35rem; border-radius: 4px; font-family: var(--font-mono); font-size: 0.75rem;">/</kbd> para buscar · <kbd style="background: #e2e8f0; padding: 0.15rem 0.35rem; border-radius: 4px; font-family: var(--font-mono); font-size: 0.75rem;">ESC</kbd> para cerrar
+      </div>
+    </div>
+    
+    <!-- Word Grid / Table Container -->
+    <div id="wordsContainer" class="words-grid">
+      <!-- Injected by app.js -->
+    </div>
+    
+    <!-- Pagination -->
+    <div id="pagination" class="pagination-container">
+      <!-- Injected by app.js -->
+    </div>
+  </main>
+
+  <!-- Word Details & Surrey-Style Paradigm Modal -->
+  <div class="modal-backdrop" id="paradigmModal" role="dialog" aria-modal="true">
+    <div class="modal-window">
+      
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <div class="modal-header-left">
+          <div class="modal-ill-container">
+            <img id="modalIll" src="illustrations/noun_001.svg" alt="Illustration" onerror="this.onerror=null; this.src='illustrations/noun_001.svg';">
+          </div>
+          <div class="modal-titles">
+            <h2>
+              <span id="modalWordPhonemic">to-hoHʔo</span>
+              <span id="modalWordLocal" class="modal-local-badge">tuju'u</span>
+              <div class="modal-audio-controls">
+                <button class="word-audio-btn modal-audio-action" id="modalAudioBtn" title="Escuchar pronunciación">
+                  🔊 <span class="audio-btn-label" data-i18n="btnListen">Escuchar</span>
+                </button>
+              </div>
+            </h2>
+            <div id="modalMeanings" class="modal-meanings">poder / able to</div>
+            <div id="modalTags" class="modal-tags">
+              <!-- Injected by app.js -->
+            </div>
+          </div>
+        </div>
+        
+        <div class="modal-actions">
+          <button class="modal-close-btn" id="modalCloseBtn" title="Cerrar modal (Esc)">×</button>
+        </div>
+      </div>
+      
+      <!-- Modal Body -->
+      <div class="modal-body">
+        
+        <!-- Paradigm View Toolbar -->
+        <div class="paradigm-toolbar" id="paradigmToolbar">
+          <!-- Injected by app.js -->
+        </div>
+        
+        <!-- Content Layout: Matrix + Inspector -->
+        <div class="paradigm-content-layout">
+          <div id="paradigmTableArea">
+            <!-- Injected by app.js -->
+          </div>
+          <div id="cellInspectorArea">
+            <!-- Injected by app.js -->
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Orthography & Morphology Guide Modal -->
+  <div class="modal-backdrop" id="guideModal" role="dialog" aria-modal="true">
+    <div class="modal-window" style="max-width: 850px;">
+      <div class="modal-header">
+        <div class="modal-header-left">
+          <h2 style="font-size: 1.45rem; color: var(--primary);" data-i18n="guideTitle">
+            Guía de Ortografía y Morfología Xi'iuy
+          </h2>
+        </div>
+        <button class="modal-close-btn" id="guideCloseBtn">×</button>
+      </div>
+      
+      <div class="modal-body" style="font-size: 0.95rem; line-height: 1.6; color: #334155;">
+        <p data-i18n="guideIntro">
+          El pame central (xi'iuy) es una lengua de la familia oto-mangue hablada en Santa María Acapulco, San Luis Potosí, México. Es sumamente reconocida en la lingüística por su enorme complejidad morfológica distribuida en cuatro capas simultáneas.
+        </p>
+        
+        <h3 style="margin-top: 1.25rem; font-size: 1.15rem; color: var(--primary);" data-i18n="guideOrthoHeading">
+          Dos Ortografías Complementarias
+        </h3>
+        
+        <div style="background: #f8fafc; border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1rem; margin-top: 0.75rem;">
+          <h4 style="font-weight: 700; color: #1e3a8a;" data-i18n="guidePhonemicTitle">
+            1. Transcripción fonológica (AFI)
+          </h4>
+          <p style="margin-top: 0.25rem; font-size: 0.88rem;" data-i18n="guidePhonemicDesc">
+            Utilizada en las bases de datos de investigación (NoLePa y VeLePa). Representa con precisión los tonos (1, 2, 3 o H, L, F), consonantes geminadas (kk, pp, tt), vocales nasales (ã, ẽ, ĩ, õ, ũ), oclusión glotal (ʔ), nasal velar (ŋ) y fronteras de morfemas (-).
+          </p>
+        </div>
+        
+        <div style="background: #f8fafc; border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1rem; margin-top: 0.75rem;">
+          <h4 style="font-weight: 700; color: #0f766e;" data-i18n="guideLocalTitle">
+            2. Ortografía
+          </h4>
+          <p style="margin-top: 0.25rem; font-size: 0.88rem;" data-i18n="guideLocalDesc">
+            Utilizada por los hablantes nativos en Santa María Acapulco según las normas prácticas locales: reemplaza ʔ por ', h por j, africadas por ch, o por u, w por v, ŋ por ng (o ñ después de i), y omite tonos y consonantes dobles.
+          </p>
+        </div>
+        
+        <h3 style="margin-top: 1.25rem; font-size: 1.15rem; color: var(--primary);" data-i18n="guideLayersHeading">
+          Las Cuatro Capas de Flexión (Inspirado en Surrey)
+        </h3>
+        
+        <ul style="margin-top: 0.5rem; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.88rem;">
+          <li><strong style="color: var(--layer-prefix);">🔹 Prefijo:</strong> <span data-i18n="guidePrefixDesc">Codifica persona, número y TAM (Presente, Pasado, Irrealis, Subjuntivo, Futuro, Imperativo).</span></li>
+          <li><strong style="color: var(--layer-stem);">🔸 Raíz / Tema:</strong> <span data-i18n="guideStemDesc">Alternancias de la raíz vocálica y consonántica, palatalización y supleción.</span></li>
+          <li><strong style="color: var(--layer-tone);">🎵 Tono:</strong> <span data-i18n="guideToneDesc">Melodía tonal distintiva: Tono Alto (H/1), Tono Bajo (L/2) o Tono Descendente (F/3).</span></li>
+          <li><strong style="color: var(--layer-suffix);">▫️ Sufijo:</strong> <span data-i18n="guideSuffixDesc">Marcadores de concordancia de persona y número (ej. -k, -ŋ', -m', -n, -p).</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Authorship, Citation, Publications, Acknowledgements & Audio Disclaimer Modal -->
+  <div class="modal-backdrop" id="citeModal" role="dialog" aria-modal="true">
+    <div class="modal-window" style="max-width: 860px;">
+      <div class="modal-header">
+        <div class="modal-header-left">
+          <h2 style="font-size: 1.45rem; color: var(--primary);" data-i18n="citeModalTitle">
+            Autoría, Cómo Citar y Agradecimientos
+          </h2>
+        </div>
+        <button class="modal-close-btn" id="citeCloseBtn">×</button>
+      </div>
+
+      <div class="modal-body" style="font-size: 0.95rem; line-height: 1.65; color: #334155;">
+        <!-- 1. How to Cite This Interactive Database -->
+        <h3 style="margin-top: 0.25rem; font-size: 1.12rem; color: var(--primary);" data-i18n="citeSectionDbHeading">
+          Cómo citar esta base de datos interactiva
+        </h3>
+        <div style="background: #f8fafc; border-left: 4px solid #0f766e; border-top: 1px solid var(--border-color); border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); border-radius: 6px; padding: 0.9rem 1.1rem; margin-top: 0.5rem; font-size: 0.92rem;" data-i18n-html="citeSectionDbText">
+          <strong>Herce, Borja.</strong> (2026). <em>Diccionario Ilustrado Xi'iuy: Base de datos léxica y morfológica interactiva del pame central (Santa María Acapulco)</em>. Universidad de Zúrich.
+        </div>
+
+        <!-- 2. Published Morphological Analyses (VeLePa & NoLePa) -->
+        <h3 style="margin-top: 1.35rem; font-size: 1.12rem; color: var(--primary);" data-i18n="citeSectionPapersHeading">
+          Estudios morfológicos y bases de datos publicadas (VeLePa y NoLePa)
+        </h3>
+        <p style="margin-top: 0.35rem; font-size: 0.91rem;" data-i18n-html="citeSectionPapersIntro">
+          Los análisis morfológicos detallados y los léxicos flexionados de la flexión verbal y nominal del pame central por separado han sido publicados como <strong>VeLePa</strong> (Herce 2024) y <strong>NoLePa</strong> (Herce 2027):
+        </p>
+
+        <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-top: 0.65rem;">
+          <div style="background: #f8fafc; border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 0.9rem 1.1rem;">
+            <h4 style="font-weight: 700; color: #1e3a8a; margin: 0 0 0.3rem 0; font-size: 0.96rem;" data-i18n="citeVelepaTitle">
+              Flexión verbal — VeLePa (Verbal Lexicon of Pame)
+            </h4>
+            <p style="margin: 0; font-size: 0.89rem;" data-i18n-html="citeVelepaRef">
+              <strong>Herce, Borja.</strong> (2024). “VeLePa: Central Pame verbal inflection in a quantitative perspective.” <em>Morphology</em> 34 (3): 281–319. <br>
+              📄 Artículo (DOI): <a href="https://doi.org/10.1007/s11525-024-09426-x" target="_blank" rel="noopener noreferrer" style="color: #0f766e; font-weight: 600;">https://doi.org/10.1007/s11525-024-09426-x</a> · 🗂️ Repositorio OSF: <a href="https://osf.io/xhyzm/" target="_blank" rel="noopener noreferrer" style="color: #0f766e; font-weight: 600;">https://osf.io/xhyzm/</a>
+            </p>
+          </div>
+
+          <div style="background: #f8fafc; border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 0.9rem 1.1rem;">
+            <h4 style="font-weight: 700; color: #0f766e; margin: 0 0 0.3rem 0; font-size: 0.96rem;" data-i18n="citeNolepaTitle">
+              Flexión nominal — NoLePa (Nominal Lexicon of Pame)
+            </h4>
+            <p style="margin: 0; font-size: 0.89rem;" data-i18n-html="citeNolepaRef">
+              <strong>Herce, Borja.</strong> (2027). “NoLePa: Nominal inflection of Pame in quantitative perspective.” <br>
+              🗂️ Repositorio OSF: <a href="https://osf.io/53pc9/" target="_blank" rel="noopener noreferrer" style="color: #0f766e; font-weight: 600;">https://osf.io/53pc9/</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- 3. Native Speakers Acknowledgement -->
+        <h3 style="margin-top: 1.35rem; font-size: 1.12rem; color: var(--primary);" data-i18n="citeSectionSpeakersHeading">
+          Agradecimiento a los hablantes nativos de xi'iuy
+        </h3>
+        <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: var(--radius-md); padding: 0.9rem 1.1rem; margin-top: 0.45rem; font-size: 0.91rem; color: #14532d;" data-i18n-html="citeSectionSpeakersText">
+          Quiero expresar mi más profundo agradecimiento a los hablantes nativos de xi'iuy (pame central) de Santa María Acapulco que han trabajado conmigo a lo largo de los años para enseñarme su lengua y compartir generosamente su conocimiento, en particular a <strong>Josefa Martínez</strong>, <strong>Brenda Montero</strong> y <strong>Aniceto Rubio</strong>.
+        </div>
+
+        <!-- 4. Funding Acknowledgements (3 Grants) -->
+        <h3 style="margin-top: 1.35rem; font-size: 1.12rem; color: var(--primary);" data-i18n="citeSectionFundingHeading">
+          Fuentes de financiación
+        </h3>
+        <p style="margin-top: 0.35rem; font-size: 0.9rem;" data-i18n-html="citeSectionFundingIntro">
+          El trabajo de campo y la investigación que han hecho posible esta base de datos han contado con el apoyo de tres fuentes principales de financiación:
+        </p>
+        <ul style="margin-top: 0.4rem; padding-left: 1.35rem; display: flex; flex-direction: column; gap: 0.45rem; font-size: 0.89rem;">
+          <li data-i18n-html="citeGrant1"><strong>Fondo Nacional Suizo para la Investigación Científica (Swiss National Science Foundation, SNSF):</strong> Beca Spark n.º <strong>220720</strong> y el Centro Nacional de Competencia en Investigación <strong>NCCR <em>Evolving Language</em></strong> (Acuerdo SNSF n.º <strong>51NF40_180888</strong> / Beca n.º <strong>225146</strong>).</li>
+          <li data-i18n-html="citeGrant2"><strong>Sociedad Suiza para las Lenguas Amenazadas (Swiss Society for Endangered Languages / Schweizerische Gesellschaft für bedrohte Sprachen, SSEL):</strong> Beca de trabajo de campo para la documentación lingüística del pame central.</li>
+          <li data-i18n-html="citeGrant3"><strong>Instituto de Gestión de San Galo en América Latina (St. Gallen Institute of Management in Latin America, GIMLA-HSG)</strong> y la <strong>Universidad de Zúrich</strong> (Beca posdoctoral UZH n.º <strong>FK-24-077</strong>).</li>
+        </ul>
+
+        <!-- 5. Audio Synthesis Disclaimer -->
+        <h3 style="margin-top: 1.35rem; font-size: 1.12rem; color: #b45309;" data-i18n="citeSectionAudioHeading">
+          Nota sobre las grabaciones de sonido
+        </h3>
+        <div style="background: #fffbeb; border: 1px solid #fde68a; border-radius: var(--radius-md); padding: 0.85rem 1.1rem; margin-top: 0.45rem; font-size: 0.89rem; color: #78350f;" data-i18n-html="citeSectionAudioText">
+          ⚠️ <strong>Aviso importante:</strong> Los sonidos de las palabras en esta base de datos han sido generados automáticamente mediante síntesis de voz a partir de la transcripción fonológica. Tienen un carácter meramente orientativo e indicativo y no siempre son fonéticamente exactos.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Audio and Main Application Scripts -->
+  <script src="js/audio.js?v=9"></script>
+  <script src="js/app.js?v=9"></script>
+  <script>
+    if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').catch(() => {});
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_noun_161" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F0E9"/>
+      <stop offset="100%" stop-color="#EADCB8"/>
+    </linearGradient>
+    <filter id="cardShadow_noun_161" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_noun_161)" stroke="#4E342E" stroke-width="2.5" filter="url(#cardShadow_noun_161)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#FFE0B2" stroke="#4E342E" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#4E342E" text-anchor="middle" letter-spacing="0.3">ANIMALES</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#4E342E" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">noun_161</text>
+  </g>
+
+  <!-- Procedural Decorative Aura Pattern -->
+  <g opacity="0.14"><polygon points="120,50 182,115 120,180 58,115" fill="none" stroke="#D84315" stroke-width="2"/><polygon points="120,64 168,115 120,166 72,115" fill="none" stroke="#D84315" stroke-width="1.2" stroke-dasharray="4,4"/></g>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art">
+    <g id="murcielago_bat"><path d="M104,112 L48,78 C48,108 64,124 76,116 C82,130 96,132 104,124 Z" fill="#37474F" stroke="#11171A" stroke-width="2.8" stroke-linejoin="round"/><path d="M136,112 L192,78 C192,108 176,124 164,116 C158,130 144,132 136,124 Z" fill="#37474F" stroke="#11171A" stroke-width="2.8" stroke-linejoin="round"/><ellipse cx="120" cy="122" rx="18" ry="24" fill="#455A64" stroke="#11171A" stroke-width="2.8"/><polygon points="106,96 100,72 116,88" fill="#37474F" stroke="#11171A" stroke-width="2.5"/><polygon points="134,96 140,72 124,88" fill="#37474F" stroke="#11171A" stroke-width="2.5"/><circle cx="120" cy="98" r="16" fill="#455A64" stroke="#11171A" stroke-width="2.8"/><circle cx="114" cy="96" r="3" fill="#FFEB3B"/><circle cx="126" cy="96" r="3" fill="#FFEB3B"/><polygon points="115,104 117,110 119,104" fill="#FFFFFF"/><polygon points="121,104 123,110 125,104" fill="#FFFFFF"/></g>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#4E342E" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="800" fill="#212121" text-anchor="middle">bat</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">murciélago</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#4E342E" text-anchor="middle">[ nichuats&apos; ]</text>
+  </g>
+</svg>

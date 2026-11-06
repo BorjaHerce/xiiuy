@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_noun_144" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8F1E7"/>
+      <stop offset="100%" stop-color="#EDD9AB"/>
+    </linearGradient>
+    <filter id="cardShadow_noun_144" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_noun_144)" stroke="#E65100" stroke-width="2.5" filter="url(#cardShadow_noun_144)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#FFE082" stroke="#E65100" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#E65100" text-anchor="middle" letter-spacing="0.3">COMIDA Y BEBIDA</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#E65100" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">noun_144</text>
+  </g>
+
+  <!-- Procedural Decorative Aura Pattern -->
+  <g opacity="0.16"><circle cx="120" cy="115" r="68" fill="none" stroke="#EF6C00" stroke-width="2" stroke-dasharray="4,6"/><line x1="120" y1="42" x2="120" y2="188" stroke="#EF6C00" stroke-width="1.5" stroke-dasharray="3,5"/><line x1="47" y1="115" x2="193" y2="115" stroke="#EF6C00" stroke-width="1.5" stroke-dasharray="3,5"/></g>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art">
+    <g id="ingrediente_art"><path d="M64,126 C64,164 176,164 176,126 Z" fill="#81D4FA" stroke="#0277BD" stroke-width="3"/><ellipse cx="120" cy="126" rx="56" ry="12" fill="#E1F5FE" stroke="#0277BD" stroke-width="2.5"/><circle cx="94" cy="96" r="14" fill="#E53935" stroke="#B71C1C" stroke-width="2.5"/><path d="M90,82 L94,86 L98,82" fill="none" stroke="#2E7D32" stroke-width="2.5"/><ellipse cx="122" cy="88" rx="12" ry="15" fill="#FFF8E1" stroke="#8D6E63" stroke-width="2.5"/><rect x="142" y="72" width="18" height="26" rx="4" transform="rotate(20 151 85)" fill="#CFD8DC" stroke="#37474F" stroke-width="2.5"/><circle cx="136" cy="108" r="2" fill="#37474F"/><circle cx="144" cy="114" r="2" fill="#37474F"/><circle cx="132" cy="116" r="2" fill="#37474F"/></g>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#E65100" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="800" fill="#212121" text-anchor="middle">ingredient</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">ingrediente</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#E65100" text-anchor="middle">[ nda&apos;&apos;e ]</text>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_noun_603" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAF0F5"/>
+      <stop offset="100%" stop-color="#C4E0E9"/>
+    </linearGradient>
+    <filter id="cardShadow_noun_603" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_noun_603)" stroke="#263238" stroke-width="2.5" filter="url(#cardShadow_noun_603)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#CFD8DC" stroke="#263238" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#263238" text-anchor="middle" letter-spacing="0.3">HERRAMIENTAS E INSTRUMENTOS</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#263238" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">noun_603</text>
+  </g>
+
+  <!-- Procedural Decorative Aura Pattern -->
+  <g opacity="0.15" stroke="#455A64" fill="none"><circle cx="120" cy="115" r="72" stroke-width="1.5"/><circle cx="120" cy="115" r="52" stroke-width="1.2" stroke-dasharray="5,4"/></g>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art">
+    <g id="noun_603_art" transform="translate(-1,1) rotate(1.8 120 115)"><rect x="92" y="106" width="56" height="48" rx="8" fill="#3949AB" stroke="#1A237E" stroke-width="3"/><rect x="106" y="90" width="28" height="16" fill="#5C6BC0" stroke="#1A237E" stroke-width="2.5"/><path d="M120,90 C134,68 154,58 164,58 C158,74 142,86 120,90 Z" fill="#FFFFFF" stroke="#37474F" stroke-width="2"/></g>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#263238" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="800" fill="#212121" text-anchor="middle">ink</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">tinta tinte</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#263238" text-anchor="middle">[ xikja&apos; ]</text>
+  </g>
+</svg>

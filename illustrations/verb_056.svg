@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_verb_056" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3E0"/>
+      <stop offset="100%" stop-color="#FFE0B2"/>
+    </linearGradient>
+    <filter id="cardShadow_verb_056" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_verb_056)" stroke="#E65100" stroke-width="2.5" filter="url(#cardShadow_verb_056)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#FFE0B2" stroke="#E65100" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#E65100" text-anchor="middle" letter-spacing="0.3">ACCIONES Y VERBOS</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#E65100" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">verb_056</text>
+  </g>
+
+  <!-- Decorative Aura -->
+  <circle cx="120" cy="108" r="58" fill="rgba(255,255,255,0.42)" stroke="#E65100" stroke-width="1" stroke-dasharray="4,4" opacity="0.55"/>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art-verb_056">
+    <rect x="60" y="114" width="32" height="42" rx="12" fill="#42A5F5" stroke="#1565C0" stroke-width="2.4"/><circle cx="76" cy="92" r="16" fill="#FFCCBC" stroke="#3E2723" stroke-width="2.4"/><path d="M60,90 C60,72 92,72 92,90 C84,83.2 68,83.2 60,90 Z" fill="#3E2723" stroke="#263238" stroke-width="2"/><ellipse cx="66.5" cy="95.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><ellipse cx="85.5" cy="95.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><circle cx="73.5" cy="91" r="2.4" fill="#263238"/><circle cx="84.5" cy="91" r="2.4" fill="#263238"/><circle cx="72.8" cy="90.2" r="0.9" fill="#FFFFFF"/><circle cx="83.8" cy="90.2" r="0.9" fill="#FFFFFF"/><path d="M71,97.5 Q76,102.5 81,97.5" fill="none" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/><path d="M92,114 L108,84" stroke="#FFCCBC" stroke-width="8" stroke-linecap="round"/><rect x="148" y="114" width="32" height="42" rx="12" fill="#66BB6A" stroke="#2E7D32" stroke-width="2.4"/><circle cx="164" cy="92" r="16" fill="#FFCCBC" stroke="#3E2723" stroke-width="2.4"/><path d="M148,90 C148,72 180,72 180,90 C172,83.2 156,83.2 148,90 Z" fill="#3E2723" stroke="#263238" stroke-width="2"/><ellipse cx="154.5" cy="95.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><ellipse cx="173.5" cy="95.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><circle cx="155.5" cy="91" r="2.4" fill="#263238"/><circle cx="166.5" cy="91" r="2.4" fill="#263238"/><circle cx="154.8" cy="90.2" r="0.9" fill="#FFFFFF"/><circle cx="165.8" cy="90.2" r="0.9" fill="#FFFFFF"/><path d="M159,97.5 Q164,102.5 169,97.5" fill="none" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/><path d="M148,114 L132,84" stroke="#FFCCBC" stroke-width="8" stroke-linecap="round"/><path d="M102,72 Q112,66 116,76" fill="none" stroke="#F57F17" stroke-width="2.4"/><path d="M138,72 Q128,66 124,76" fill="none" stroke="#F57F17" stroke-width="2.4"/>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#E65100" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="800" fill="#212121" text-anchor="middle">greet</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">saludar</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#E65100" text-anchor="middle">[ tunguau&apos; ]</text>
+  </g>
+</svg>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_noun_403" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7EFE9"/>
+      <stop offset="100%" stop-color="#EACDB8"/>
+    </linearGradient>
+    <filter id="cardShadow_noun_403" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_noun_403)" stroke="#4E342E" stroke-width="2.5" filter="url(#cardShadow_noun_403)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#FFE0B2" stroke="#4E342E" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#4E342E" text-anchor="middle" letter-spacing="0.3">ANIMALES</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#4E342E" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">noun_403</text>
+  </g>
+
+  <!-- Procedural Decorative Aura Pattern -->
+  <g opacity="0.15" stroke="#D84315" fill="none"><circle cx="120" cy="115" r="72" stroke-width="1.5"/><circle cx="120" cy="115" r="52" stroke-width="1.2" stroke-dasharray="5,4"/></g>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art">
+    <g id="noun_403_art" transform="translate(-1,1) rotate(0.0 120 115)"><ellipse cx="120" cy="126" rx="24" ry="34" fill="#BCAAA4" stroke="#4E342E" stroke-width="3"/><ellipse cx="120" cy="86" rx="14" ry="12" fill="#8D6E63" stroke="#4E342E" stroke-width="2.5"/><line x1="100" y1="115" x2="140" y2="115" stroke="#5D4037" stroke-width="2"/><line x1="97" y1="128" x2="143" y2="128" stroke="#5D4037" stroke-width="2"/><line x1="100" y1="141" x2="140" y2="141" stroke="#5D4037" stroke-width="2"/><path d="M112,76 L100,60 M128,76 L140,60" stroke="#3E2723" stroke-width="2.5" stroke-linecap="round"/><path d="M98,108 L74,98 M96,124 L70,124 M98,140 L76,154 M142,108 L166,98 M144,124 L170,124 M142,140 L164,154" stroke="#4E342E" stroke-width="3" stroke-linecap="round"/></g>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#4E342E" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="800" fill="#212121" text-anchor="middle">louse</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">piojo</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#4E342E" text-anchor="middle">[ ngul&apos;u ]</text>
+  </g>
+</svg>

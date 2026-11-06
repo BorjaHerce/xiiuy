@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_noun_458" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F0E9"/>
+      <stop offset="100%" stop-color="#EAD4B8"/>
+    </linearGradient>
+    <filter id="cardShadow_noun_458" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_noun_458)" stroke="#4E342E" stroke-width="2.5" filter="url(#cardShadow_noun_458)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#FFE0B2" stroke="#4E342E" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#4E342E" text-anchor="middle" letter-spacing="0.3">ANIMALES</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#4E342E" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">noun_458</text>
+  </g>
+
+  <!-- Procedural Decorative Aura Pattern -->
+  <g opacity="0.20" fill="#D84315"><circle cx="62" cy="72" r="5"/><circle cx="180" cy="65" r="7"/><circle cx="55" cy="155" r="4"/><circle cx="185" cy="148" r="6"/></g>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art">
+    <g id="noun_458_art" transform="translate(-1,1) rotate(0.6 120 115)"><ellipse cx="116" cy="122" rx="34" ry="13" fill="#7CB342" stroke="#33691E" stroke-width="3"/><circle cx="82" cy="118" r="12" fill="#8BC34A" stroke="#33691E" stroke-width="2.5"/><circle cx="78" cy="115" r="3" fill="#212121"/><polyline points="124,118 148,82 166,144" fill="none" stroke="#33691E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M74,108 Q62,90 54,86 M92,132 L82,148 M112,134 L106,148" fill="none" stroke="#33691E" stroke-width="2.5" stroke-linecap="round"/></g>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#4E342E" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="800" fill="#212121" text-anchor="middle">grasshopper</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">chapulín</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#4E342E" text-anchor="middle">[ ngul&apos;ues ]</text>
+  </g>
+</svg>

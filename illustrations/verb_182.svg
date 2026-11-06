@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_verb_182" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3E0"/>
+      <stop offset="100%" stop-color="#FFE0B2"/>
+    </linearGradient>
+    <filter id="cardShadow_verb_182" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_verb_182)" stroke="#E65100" stroke-width="2.5" filter="url(#cardShadow_verb_182)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#FFE0B2" stroke="#E65100" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#E65100" text-anchor="middle" letter-spacing="0.3">ACCIONES Y VERBOS</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#E65100" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">verb_182</text>
+  </g>
+
+  <!-- Decorative Aura -->
+  <circle cx="120" cy="108" r="58" fill="rgba(255,255,255,0.42)" stroke="#E65100" stroke-width="1" stroke-dasharray="4,4" opacity="0.55"/>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art-verb_182">
+    <rect x="54" y="136" width="132" height="18" rx="6" fill="#FFE082" stroke="#FFA000" stroke-width="2.2"/><rect x="92" y="118" width="66" height="20" rx="8" fill="#42A5F5" stroke="#1565C0" stroke-width="2"/><circle cx="78" cy="122" r="14" fill="#FFCCBC" stroke="#3E2723" stroke-width="2.4"/><path d="M64,120 C64,104 92,104 92,120 C85,114.3 71,114.3 64,120 Z" fill="#3E2723" stroke="#263238" stroke-width="2"/><ellipse cx="68.5" cy="125.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><ellipse cx="87.5" cy="125.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><circle cx="72.5" cy="121" r="2.4" fill="#263238"/><circle cx="83.5" cy="121" r="2.4" fill="#263238"/><circle cx="71.8" cy="120.2" r="0.9" fill="#FFFFFF"/><circle cx="82.8" cy="120.2" r="0.9" fill="#FFFFFF"/><path d="M73,127.5 Q78,132.5 83,127.5" fill="none" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/><path d="M120,62 Q134,86 126,112" fill="none" stroke="#1E88E5" stroke-width="3.2" stroke-linecap="round"/><polygon points="126,112 124.199,103.182 132.447,105.72" fill="#1E88E5"/>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#E65100" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="800" fill="#212121" text-anchor="middle">lie down</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">acostarse / echarse</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#E65100" text-anchor="middle">[ tigya&apos;a ]</text>
+  </g>
+</svg>
+

@@ -1,0 +1,20 @@
+{
+  "name": "Diccionario Ilustrado Xi'iuy (Pame Central)",
+  "short_name": "Xi'iuy",
+  "description": "Diccionario interactivo trilingüe (Xi'iuy · Español · Inglés) de Santa María Acapulco con 892 entradas ilustradas y 34,365 formas flexionadas.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f8fafc",
+  "theme_color": "#0f766e",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "illustrations/app_icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

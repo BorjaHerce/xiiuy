@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_verb_207" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E5F5"/>
+      <stop offset="100%" stop-color="#E1BEE7"/>
+    </linearGradient>
+    <filter id="cardShadow_verb_207" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_verb_207)" stroke="#4A148C" stroke-width="2.5" filter="url(#cardShadow_verb_207)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#E1BEE7" stroke="#4A148C" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#4A148C" text-anchor="middle" letter-spacing="0.3">ACCIONES Y VERBOS</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#4A148C" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">verb_207</text>
+  </g>
+
+  <!-- Decorative Aura -->
+  <circle cx="120" cy="108" r="58" fill="rgba(255,255,255,0.42)" stroke="#4A148C" stroke-width="1" stroke-dasharray="4,4" opacity="0.55"/>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art-verb_207">
+    <line x1="48" y1="154" x2="192" y2="154" stroke="#8D6E63" stroke-width="4"/><rect x="104" y="92" width="32" height="40" rx="12" fill="#66BB6A" stroke="#2E7D32" stroke-width="2.4"/><circle cx="120" cy="70" r="16" fill="#FFCCBC" stroke="#3E2723" stroke-width="2.4"/><path d="M104,68 C104,50 136,50 136,68 C128,61.2 112,61.2 104,68 Z" fill="#3E2723" stroke="#263238" stroke-width="2"/><ellipse cx="110.5" cy="73.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><ellipse cx="129.5" cy="73.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><circle cx="117.5" cy="69" r="2.4" fill="#263238"/><circle cx="128.5" cy="69" r="2.4" fill="#263238"/><circle cx="116.8" cy="68.2" r="0.9" fill="#FFFFFF"/><circle cx="127.8" cy="68.2" r="0.9" fill="#FFFFFF"/><path d="M115,75.5 Q120,80.5 125,75.5" fill="none" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/><line x1="112" y1="132" x2="96" y2="152" stroke="#1B5E20" stroke-width="8" stroke-linecap="round"/><line x1="128" y1="132" x2="144" y2="152" stroke="#1B5E20" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#4A148C" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="800" fill="#212121" text-anchor="middle">walk</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">caminar / andar</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#4A148C" text-anchor="middle">[ ladua ]</text>
+  </g>
+</svg>
+

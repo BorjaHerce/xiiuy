@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_verb_096" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8EAF6"/>
+      <stop offset="100%" stop-color="#C5CAE9"/>
+    </linearGradient>
+    <filter id="cardShadow_verb_096" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_verb_096)" stroke="#1A237E" stroke-width="2.5" filter="url(#cardShadow_verb_096)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#C5CAE9" stroke="#1A237E" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#1A237E" text-anchor="middle" letter-spacing="0.3">ACCIONES Y VERBOS</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#1A237E" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">verb_096</text>
+  </g>
+
+  <!-- Decorative Aura -->
+  <circle cx="120" cy="108" r="58" fill="rgba(255,255,255,0.42)" stroke="#1A237E" stroke-width="1" stroke-dasharray="4,4" opacity="0.55"/>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art-verb_096">
+    <rect x="58" y="104" width="36" height="48" rx="12" fill="#E53935" stroke="#B71C1C" stroke-width="2.4"/><circle cx="76" cy="80" r="17" fill="#FFCCBC" stroke="#3E2723" stroke-width="2.4"/><path d="M59,78 C59,59 93,59 93,78 C84.5,70.65 67.5,70.65 59,78 Z" fill="#3E2723" stroke="#263238" stroke-width="2"/><ellipse cx="66.5" cy="83.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><ellipse cx="85.5" cy="83.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><circle cx="74" cy="80" r="2.5" fill="#263238"/><circle cx="84" cy="80" r="2.5" fill="#263238"/><path d="M67,74 L74,77" stroke="#263238" stroke-width="2.4" stroke-linecap="round"/><path d="M85,74 L78,77" stroke="#263238" stroke-width="2.4" stroke-linecap="round"/><path d="M71,89 Q76,84 81,89" fill="none" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/><path d="M94,106 L124,96" stroke="#FFCCBC" stroke-width="8" stroke-linecap="round"/><rect x="150" y="122" width="28" height="32" rx="12" fill="#90CAF9" stroke="#1565C0" stroke-width="2.4"/><circle cx="164" cy="104" r="14" fill="#FFCCBC" stroke="#3E2723" stroke-width="2.4"/><path d="M150,102 C150,86 178,86 178,102 C171,96.3 157,96.3 150,102 Z" fill="#3E2723" stroke="#263238" stroke-width="2"/><ellipse cx="154.5" cy="107.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><ellipse cx="173.5" cy="107.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><circle cx="155.5" cy="103" r="2.4" fill="#263238"/><circle cx="166.5" cy="103" r="2.4" fill="#263238"/><circle cx="154.8" cy="102.2" r="0.9" fill="#FFFFFF"/><circle cx="165.8" cy="102.2" r="0.9" fill="#FFFFFF"/><path d="M159,113 Q164,108 169,113" fill="none" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/><path d="M176,96 C182,104 180,108 176,108 C172,108 170,104 176,96 Z" fill="#29B6F6" stroke="#0277BD" stroke-width="1.2"/><polygon points="128,60 131.36,68.64 140,72 131.36,75.36 128,84 124.64,75.36 116,72 124.64,68.64" fill="#FF5252" stroke="#F57F17" stroke-width="1"/>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#1A237E" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="800" fill="#212121" text-anchor="middle">scold</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">regañar</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#1A237E" text-anchor="middle">[ latsu ]</text>
+  </g>
+</svg>
+

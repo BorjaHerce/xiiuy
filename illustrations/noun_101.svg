@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_noun_101" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7EEE8"/>
+      <stop offset="100%" stop-color="#EDCDB6"/>
+    </linearGradient>
+    <filter id="cardShadow_noun_101" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_noun_101)" stroke="#BF360C" stroke-width="2.5" filter="url(#cardShadow_noun_101)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#FFCCBC" stroke="#BF360C" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#BF360C" text-anchor="middle" letter-spacing="0.3">PERSONAS, PARENTESCO Y SOCIEDAD</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#BF360C" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">noun_101</text>
+  </g>
+
+  <!-- Procedural Decorative Aura Pattern -->
+  <g opacity="0.15" fill="none" stroke="#D84315" stroke-width="2" stroke-linecap="round"><path d="M50,75 C80,60 160,85 190,70"/><path d="M45,155 C75,140 165,165 195,150"/></g>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art">
+    <g id="albanil_bricklayer"><rect x="56" y="138" width="44" height="24" fill="#D84315" stroke="#4E342E" stroke-width="2.5"/><line x1="56" y1="150" x2="100" y2="150" stroke="#CFD8DC" stroke-width="3"/><line x1="78" y1="138" x2="78" y2="150" stroke="#CFD8DC" stroke-width="3"/><line x1="68" y1="150" x2="68" y2="162" stroke="#CFD8DC" stroke-width="3"/><circle cx="136" cy="84" r="19" fill="#FFE0B2" stroke="#4E342E" stroke-width="2.8"/><path d="M114,76 C114,54 158,54 158,76 Z" fill="#FFD54F" stroke="#F57F17" stroke-width="2.5"/><path d="M112,162 C112,108 160,108 160,162 Z" fill="#5C6BC0" stroke="#283593" stroke-width="2.8"/><polygon points="94,116 116,108 108,128" fill="#B0BEC5" stroke="#37474F" stroke-width="2"/></g>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#BF360C" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="800" fill="#212121" text-anchor="middle">bricklayer</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">albanil</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#BF360C" text-anchor="middle">[ kaka ]</text>
+  </g>
+</svg>

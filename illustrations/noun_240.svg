@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_noun_240" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F5E9"/>
+      <stop offset="100%" stop-color="#EAE6B8"/>
+    </linearGradient>
+    <filter id="cardShadow_noun_240" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_noun_240)" stroke="#F57F17" stroke-width="2.5" filter="url(#cardShadow_noun_240)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#FFF9C4" stroke="#F57F17" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#F57F17" text-anchor="middle" letter-spacing="0.3">CUALIDADES Y ESTADOS</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#F57F17" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">noun_240</text>
+  </g>
+
+  <!-- Procedural Decorative Aura Pattern -->
+  <g opacity="0.16"><circle cx="120" cy="115" r="68" fill="none" stroke="#F57F17" stroke-width="2" stroke-dasharray="4,6"/><line x1="120" y1="42" x2="120" y2="188" stroke="#F57F17" stroke-width="1.5" stroke-dasharray="3,5"/><line x1="47" y1="115" x2="193" y2="115" stroke="#F57F17" stroke-width="1.5" stroke-dasharray="3,5"/></g>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art" transform="translate(-2, -2) rotate(-2 120 115)">
+    <g><circle cx="120" cy="116" r="38" fill="#BBDEFB" stroke="#1565C0" stroke-width="3"/><circle cx="105" cy="106" r="9" fill="#FFFFFF" stroke="#1565C0" stroke-width="2"/><circle cx="105" cy="106" r="3" fill="#212121"/><circle cx="135" cy="106" r="9" fill="#FFFFFF" stroke="#1565C0" stroke-width="2"/><circle cx="135" cy="106" r="3" fill="#212121"/><ellipse cx="120" cy="134" rx="10" ry="14" fill="#37474F" stroke="#1565C0" stroke-width="2"/><path d="M150,92 C150,92 144,104 150,108 C156,104 150,92 150,92 Z" fill="#29B6F6"/><path d="M68,96 L62,104 L70,112 M172,96 L178,104 L170,112" fill="none" stroke="#1565C0" stroke-width="2.5" stroke-linecap="round"/></g>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#F57F17" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="800" fill="#212121" text-anchor="middle">fear</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">miedo</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#F57F17" text-anchor="middle">[ stapui ]</text>
+  </g>
+</svg>

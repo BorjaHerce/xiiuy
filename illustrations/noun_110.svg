@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_noun_110" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8F2E7"/>
+      <stop offset="100%" stop-color="#EDDBAB"/>
+    </linearGradient>
+    <filter id="cardShadow_noun_110" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_noun_110)" stroke="#E65100" stroke-width="2.5" filter="url(#cardShadow_noun_110)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#FFE082" stroke="#E65100" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#E65100" text-anchor="middle" letter-spacing="0.3">COMIDA Y BEBIDA</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#E65100" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">noun_110</text>
+  </g>
+
+  <!-- Procedural Decorative Aura Pattern -->
+  <g opacity="0.18" fill="#EF6C00"><circle cx="55" cy="80" r="3.5"/><circle cx="175" cy="73" r="3.5"/><polygon points="120,46 122,41 127,39 122,37 120,32 118,37 113,39 118,41"/></g>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art">
+    <g id="higuero_fig"><path d="M98,74 C98,88 74,102 74,126 C74,146 90,158 106,158 C122,158 134,146 134,126 C134,102 112,88 112,74 Z" fill="#6A1B9A" stroke="#311B92" stroke-width="3"/><path d="M105,74 Q105,60 116,54" fill="none" stroke="#4E342E" stroke-width="4" stroke-linecap="round"/><circle cx="146" cy="136" r="24" fill="#4A148C" stroke="#311B92" stroke-width="2.8"/><circle cx="146" cy="136" r="18" fill="#F06292"/><circle cx="146" cy="136" r="10" fill="#D81B60"/><circle cx="142" cy="132" r="1.5" fill="#FFF59D"/><circle cx="150" cy="132" r="1.5" fill="#FFF59D"/><circle cx="142" cy="140" r="1.5" fill="#FFF59D"/><circle cx="150" cy="140" r="1.5" fill="#FFF59D"/></g>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#E65100" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="800" fill="#212121" text-anchor="middle">fig</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">higuero</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#E65100" text-anchor="middle">[ nak&apos;uix ]</text>
+  </g>
+</svg>

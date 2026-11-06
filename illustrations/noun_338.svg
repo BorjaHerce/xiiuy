@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_noun_338" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7ECE9"/>
+      <stop offset="100%" stop-color="#EACEB8"/>
+    </linearGradient>
+    <filter id="cardShadow_noun_338" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_noun_338)" stroke="#4E342E" stroke-width="2.5" filter="url(#cardShadow_noun_338)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#FFE0B2" stroke="#4E342E" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#4E342E" text-anchor="middle" letter-spacing="0.3">ANIMALES</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#4E342E" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">noun_338</text>
+  </g>
+
+  <!-- Procedural Decorative Aura Pattern -->
+  <g opacity="0.20" fill="#D84315"><circle cx="62" cy="72" r="5"/><circle cx="180" cy="65" r="7"/><circle cx="55" cy="155" r="4"/><circle cx="185" cy="148" r="6"/></g>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art" transform="translate(-1, 1) rotate(2 120 115)">
+    <g><circle cx="96" cy="88" r="18" fill="#BDBDBD" stroke="#424242" stroke-width="2.5"/><circle cx="96" cy="88" r="11" fill="#F8BBD0"/><circle cx="144" cy="88" r="18" fill="#BDBDBD" stroke="#424242" stroke-width="2.5"/><circle cx="144" cy="88" r="11" fill="#F8BBD0"/><polygon points="94,102 146,102 120,148" fill="#E0E0E0" stroke="#424242" stroke-width="3" stroke-linejoin="round"/><circle cx="110" cy="114" r="3.5" fill="#212121"/><circle cx="130" cy="114" r="3.5" fill="#212121"/><circle cx="120" cy="146" r="5" fill="#F06292"/></g>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#4E342E" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="800" fill="#212121" text-anchor="middle">mouse</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">ratón, rata</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#4E342E" text-anchor="middle">[ ningyau ]</text>
+  </g>
+</svg>

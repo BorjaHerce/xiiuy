@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_noun_231" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F1E9"/>
+      <stop offset="100%" stop-color="#EAD7B8"/>
+    </linearGradient>
+    <filter id="cardShadow_noun_231" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_noun_231)" stroke="#4E342E" stroke-width="2.5" filter="url(#cardShadow_noun_231)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#FFE0B2" stroke="#4E342E" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#4E342E" text-anchor="middle" letter-spacing="0.3">ANIMALES</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#4E342E" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">noun_231</text>
+  </g>
+
+  <!-- Procedural Decorative Aura Pattern -->
+  <g opacity="0.14" stroke="#D84315" stroke-width="1.5"><line x1="50" y1="55" x2="65" y2="70"/><line x1="60" y1="50" x2="75" y2="65"/><circle cx="120" cy="115" r="66" fill="none" stroke-dasharray="5,5"/></g>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art" transform="translate(0, -1) rotate(1 120 115)">
+    <g><ellipse cx="102" cy="88" rx="26" ry="9" transform="rotate(-25 102 88)" fill="#FFCCBC" stroke="#BF360C" stroke-width="2" opacity="0.85"/><ellipse cx="138" cy="88" rx="26" ry="9" transform="rotate(25 138 88)" fill="#FFCCBC" stroke="#BF360C" stroke-width="2" opacity="0.85"/><circle cx="120" cy="76" r="11" fill="#212121"/><ellipse cx="120" cy="98" rx="12" ry="14" fill="#263238" stroke="#000000" stroke-width="2.5"/><line x1="120" y1="112" x2="120" y2="120" stroke="#212121" stroke-width="3"/><ellipse cx="120" cy="138" rx="14" ry="22" fill="#212121" stroke="#000000" stroke-width="2.5"/><polygon points="120,160 117,172 123,172" fill="#E53935"/><path d="M112,68 L98,54 M128,68 L142,54" stroke="#212121" stroke-width="2.5" stroke-linecap="round"/></g>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#4E342E" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="800" fill="#212121" text-anchor="middle">wasp</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">avispa negra</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#4E342E" text-anchor="middle">[ snamu&apos; ]</text>
+  </g>
+</svg>

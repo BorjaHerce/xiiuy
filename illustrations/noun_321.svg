@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_noun_321" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F0E9"/>
+      <stop offset="100%" stop-color="#EADCB8"/>
+    </linearGradient>
+    <filter id="cardShadow_noun_321" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_noun_321)" stroke="#4E342E" stroke-width="2.5" filter="url(#cardShadow_noun_321)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#FFE0B2" stroke="#4E342E" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#4E342E" text-anchor="middle" letter-spacing="0.3">ANIMALES</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#4E342E" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">noun_321</text>
+  </g>
+
+  <!-- Procedural Decorative Aura Pattern -->
+  <g opacity="0.14"><polygon points="120,50 182,115 120,180 58,115" fill="none" stroke="#D84315" stroke-width="2"/><polygon points="120,64 168,115 120,166 72,115" fill="none" stroke="#D84315" stroke-width="1.2" stroke-dasharray="4,4"/></g>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art" transform="translate(0, -1) rotate(1 120 115)">
+    <g><circle cx="96" cy="82" r="10" fill="#FFB300" stroke="#3E2723" stroke-width="2.5"/><circle cx="144" cy="82" r="10" fill="#FFB300" stroke="#3E2723" stroke-width="2.5"/><ellipse cx="120" cy="112" rx="34" ry="28" fill="#FFCA28" stroke="#3E2723" stroke-width="3"/><polygon points="102,102 114,108 102,110" fill="#FFEB3B" stroke="#212121" stroke-width="1.5"/><polygon points="138,102 126,108 138,110" fill="#FFEB3B" stroke="#212121" stroke-width="1.5"/><polygon points="120,118 114,112 126,112" fill="#D84315"/><path d="M106,126 L134,126 L130,134 L110,134 Z" fill="#FFFFFF" stroke="#212121" stroke-width="2"/><circle cx="98" cy="116" r="3" fill="#3E2723"/><circle cx="142" cy="116" r="3" fill="#3E2723"/><circle cx="120" cy="92" r="3" fill="#3E2723"/></g>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#4E342E" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="800" fill="#212121" text-anchor="middle">wildlife</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">animal salvaje</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#4E342E" text-anchor="middle">[ kane ]</text>
+  </g>
+</svg>

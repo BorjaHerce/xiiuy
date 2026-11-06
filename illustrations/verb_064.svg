@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_verb_064" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E1F5FE"/>
+      <stop offset="100%" stop-color="#B3E5FC"/>
+    </linearGradient>
+    <filter id="cardShadow_verb_064" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_verb_064)" stroke="#01579B" stroke-width="2.5" filter="url(#cardShadow_verb_064)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#B3E5FC" stroke="#01579B" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#01579B" text-anchor="middle" letter-spacing="0.3">ACCIONES Y VERBOS</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#01579B" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">verb_064</text>
+  </g>
+
+  <!-- Decorative Aura -->
+  <circle cx="120" cy="108" r="58" fill="rgba(255,255,255,0.42)" stroke="#01579B" stroke-width="1" stroke-dasharray="4,4" opacity="0.55"/>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art-verb_064">
+    <ellipse cx="120" cy="152" rx="52" ry="10" fill="#FFE082" stroke="#FFA000" stroke-width="2"/><rect x="98" y="98" width="32" height="36" rx="12" fill="#5C6BC0" stroke="#283593" stroke-width="2.4"/><circle cx="114" cy="76" r="16" fill="#FFCCBC" stroke="#3E2723" stroke-width="2.4"/><path d="M98,74 C98,56 130,56 130,74 C122,67.2 106,67.2 98,74 Z" fill="#3E2723" stroke="#263238" stroke-width="2"/><ellipse cx="104.5" cy="79.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><ellipse cx="123.5" cy="79.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><path d="M106,75 Q109,79 112,75" fill="none" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/><path d="M116,75 Q119,79 122,75" fill="none" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/><path d="M109,81.5 Q114,86.5 119,81.5" fill="none" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/><path d="M114,134 L114,148 L92,148" fill="none" stroke="#283593" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M126,108 L142,102" stroke="#FFCCBC" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#01579B" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="800" fill="#212121" text-anchor="middle">kneel</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">arrodillarse</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#01579B" text-anchor="middle">[ tikyeje&apos; ]</text>
+  </g>
+</svg>
+

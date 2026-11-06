@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_noun_266" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0EAF5"/>
+      <stop offset="100%" stop-color="#DBC0E7"/>
+    </linearGradient>
+    <filter id="cardShadow_noun_266" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_noun_266)" stroke="#4A148C" stroke-width="2.5" filter="url(#cardShadow_noun_266)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#E1BEE7" stroke="#4A148C" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#4A148C" text-anchor="middle" letter-spacing="0.3">HOGAR Y ROPA</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#4A148C" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">noun_266</text>
+  </g>
+
+  <!-- Procedural Decorative Aura Pattern -->
+  <g opacity="0.20" fill="#7B1FA2"><circle cx="62" cy="72" r="5"/><circle cx="180" cy="65" r="7"/><circle cx="55" cy="155" r="4"/><circle cx="185" cy="148" r="6"/></g>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art" transform="translate(0, -1) rotate(1 120 115)">
+    <g><path d="M80,74 L160,74 L160,132 L120,160 L80,132 Z" fill="#5C6BC0" stroke="#1A237E" stroke-width="3.5" stroke-linejoin="round"/><polygon points="80,74 160,74 160,94 120,108 80,94" fill="#7986CB" stroke="#1A237E" stroke-width="3" stroke-linejoin="round"/><circle cx="120" cy="96" r="5" fill="#FFD54F" stroke="#1A237E" stroke-width="1.5"/></g>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#4A148C" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="800" fill="#212121" text-anchor="middle">pocket</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">bolsillo</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#4A148C" text-anchor="middle">[ tsumpjang ]</text>
+  </g>
+</svg>

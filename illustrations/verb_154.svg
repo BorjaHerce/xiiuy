@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_verb_154" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E1F5FE"/>
+      <stop offset="100%" stop-color="#B3E5FC"/>
+    </linearGradient>
+    <filter id="cardShadow_verb_154" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_verb_154)" stroke="#01579B" stroke-width="2.5" filter="url(#cardShadow_verb_154)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#B3E5FC" stroke="#01579B" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#01579B" text-anchor="middle" letter-spacing="0.3">ACCIONES Y VERBOS</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#01579B" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">verb_154</text>
+  </g>
+
+  <!-- Decorative Aura -->
+  <circle cx="120" cy="108" r="58" fill="rgba(255,255,255,0.42)" stroke="#01579B" stroke-width="1" stroke-dasharray="4,4" opacity="0.55"/>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art-verb_154">
+    <rect x="60" y="114" width="28" height="36" rx="12" fill="#90A4AE" stroke="#455A64" stroke-width="2.4"/><circle cx="74" cy="94" r="13" fill="#FFCCBC" stroke="#3E2723" stroke-width="2.4"/><path d="M61,92 C61,77 87,77 87,92 C80.5,86.85 67.5,86.85 61,92 Z" fill="#3E2723" stroke="#263238" stroke-width="2"/><ellipse cx="64.5" cy="97.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><ellipse cx="83.5" cy="97.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><circle cx="71.5" cy="93" r="2.4" fill="#263238"/><circle cx="82.5" cy="93" r="2.4" fill="#263238"/><circle cx="70.8" cy="92.2" r="0.9" fill="#FFFFFF"/><circle cx="81.8" cy="92.2" r="0.9" fill="#FFFFFF"/><line x1="69" y1="101" x2="79" y2="101" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/><rect x="137" y="108" width="34" height="42" rx="12" fill="#EF5350" stroke="#B71C1C" stroke-width="2.4"/><circle cx="154" cy="86" r="16" fill="#FFCCBC" stroke="#3E2723" stroke-width="2.4"/><path d="M138,84 C138,66 170,66 170,84 C162,77.2 146,77.2 138,84 Z" fill="#3E2723" stroke="#263238" stroke-width="2"/><ellipse cx="144.5" cy="89.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><ellipse cx="163.5" cy="89.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><circle cx="151.5" cy="85" r="2.4" fill="#263238"/><circle cx="162.5" cy="85" r="2.4" fill="#263238"/><circle cx="150.8" cy="84.2" r="0.9" fill="#FFFFFF"/><circle cx="161.8" cy="84.2" r="0.9" fill="#FFFFFF"/><path d="M149,91.5 Q154,96.5 159,91.5" fill="none" stroke="#263238" stroke-width="2.2" stroke-linecap="round"/><path d="M96,122 Q120,122 184,122" fill="none" stroke="#2E7D32" stroke-width="3.2" stroke-linecap="round"/><polygon points="184,122 176.102,126.315 176.102,117.685" fill="#2E7D32"/>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#01579B" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="800" fill="#212121" text-anchor="middle">be first</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">ir primero / adelantarse</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#01579B" text-anchor="middle">[ tigyuaja&apos; ]</text>
+  </g>
+</svg>
+

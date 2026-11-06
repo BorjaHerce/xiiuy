@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_noun_192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E6F4E6"/>
+      <stop offset="100%" stop-color="#BCE6B3"/>
+    </linearGradient>
+    <filter id="cardShadow_noun_192" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_noun_192)" stroke="#1B5E20" stroke-width="2.5" filter="url(#cardShadow_noun_192)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#C8E6C9" stroke="#1B5E20" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#1B5E20" text-anchor="middle" letter-spacing="0.3">PLANTAS Y NATURALEZA</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#1B5E20" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">noun_192</text>
+  </g>
+
+  <!-- Procedural Decorative Aura Pattern -->
+  <g opacity="0.16"><circle cx="120" cy="115" r="68" fill="none" stroke="#2E7D32" stroke-width="2" stroke-dasharray="4,6"/><line x1="120" y1="42" x2="120" y2="188" stroke="#2E7D32" stroke-width="1.5" stroke-dasharray="3,5"/><line x1="47" y1="115" x2="193" y2="115" stroke="#2E7D32" stroke-width="1.5" stroke-dasharray="3,5"/></g>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art">
+    <g id="noche_night"><circle cx="120" cy="112" r="54" fill="#1A237E" stroke="#0D47A1" stroke-width="3"/><path d="M132,74 C104,78 94,110 106,136 C114,148 128,152 140,148 C116,138 112,104 132,74 Z" fill="#FFF59D" stroke="#FBC02D" stroke-width="2.5"/><polygon points="86,92 88,86 94,84 88,82 86,76 84,82 78,84 84,86" fill="#FFD54F"/><polygon points="148,108 150,103 155,101 150,99 148,94 146,99 141,101 146,103" fill="#FFD54F"/><circle cx="96" cy="132" r="2.5" fill="#FFFFFF"/><circle cx="144" cy="78" r="2" fill="#FFFFFF"/></g>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#1B5E20" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="800" fill="#212121" text-anchor="middle">night</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">noche</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#1B5E20" text-anchor="middle">[ ngusaung ]</text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_verb_009" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E5F5"/>
+      <stop offset="100%" stop-color="#E1BEE7"/>
+    </linearGradient>
+    <filter id="cardShadow_verb_009" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Card Base -->
+  <rect x="8" y="8" width="224" height="224" rx="28" fill="url(#bgGrad_verb_009)" stroke="#4A148C" stroke-width="2.5" filter="url(#cardShadow_verb_009)"/>
+
+  <!-- Top Category Tag Pill -->
+  <g transform="translate(16, 16)">
+    <rect x="0" y="0" width="120" height="20" rx="10" fill="#E1BEE7" stroke="#4A148C" stroke-width="1.2"/>
+    <text x="60" y="13.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="8" font-weight="800" fill="#4A148C" text-anchor="middle" letter-spacing="0.3">ACCIONES Y VERBOS</text>
+  </g>
+
+  <!-- ID badge on top right -->
+  <g transform="translate(162, 16)">
+    <rect x="0" y="0" width="62" height="20" rx="10" fill="rgba(255,255,255,0.85)" stroke="#4A148C" stroke-width="1.2"/>
+    <text x="31" y="13.5" font-family="monospace" font-size="8.5" font-weight="700" fill="#37474F" text-anchor="middle">verb_009</text>
+  </g>
+
+  <!-- Decorative Aura -->
+  <circle cx="120" cy="108" r="58" fill="rgba(255,255,255,0.42)" stroke="#4A148C" stroke-width="1" stroke-dasharray="4,4" opacity="0.55"/>
+
+  <!-- Central Distinct Cartoon Artwork -->
+  <g id="illustration-art-verb_009">
+    <path d="M68,96 A54,54 0 1,1 172,96" fill="none" stroke="#FF7043" stroke-width="2.5" stroke-dasharray="5,4"/><rect x="101" y="116" width="38" height="42" rx="12" fill="#FFA726" stroke="#E65100" stroke-width="2.4"/><circle cx="120" cy="94" r="17" fill="#FFCCBC" stroke="#3E2723" stroke-width="2.4"/><path d="M103,92 C103,73 137,73 137,92 C128.5,84.65 111.5,84.65 103,92 Z" fill="#3E2723" stroke="#263238" stroke-width="2"/><ellipse cx="110.5" cy="97.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><ellipse cx="129.5" cy="97.5" rx="3.2" ry="1.8" fill="#FF8A80" opacity="0.65"/><circle cx="114" cy="93" r="4" fill="#FFFFFF" stroke="#263238" stroke-width="1.5"/><circle cx="126" cy="93" r="4" fill="#FFFFFF" stroke="#263238" stroke-width="1.5"/><circle cx="114" cy="93" r="1.8" fill="#263238"/><circle cx="126" cy="93" r="1.8" fill="#263238"/><ellipse cx="120" cy="101" rx="4" ry="5" fill="#263238"/><path d="M135,86 C141,94 139,98 135,98 C131,98 129,94 135,86 Z" fill="#29B6F6" stroke="#0277BD" stroke-width="1.2"/><path d="M102,120 L74,98" stroke="#FFCCBC" stroke-width="7" stroke-linecap="round"/><path d="M138,120 L166,98" stroke="#FFCCBC" stroke-width="7" stroke-linecap="round"/><circle cx="64" cy="78" r="14" fill="#FFFFFF" stroke="#1A237E" stroke-width="2.2"/><polyline points="64,70 64,78 70,78" fill="none" stroke="#D32F2F" stroke-width="2"/><rect x="160" y="64" width="22" height="26" rx="3" fill="#FFFFFF" stroke="#37474F" stroke-width="2"/><line x1="164" y1="72" x2="178" y2="72" stroke="#37474F" stroke-width="2"/><line x1="164" y1="79" x2="176" y2="79" stroke="#37474F" stroke-width="2"/><circle cx="120" cy="52" r="10" fill="#FFD54F" stroke="#F57F17" stroke-width="2"/>
+  </g>
+
+  <!-- Bottom Information Banner -->
+  <g transform="translate(14, 180)">
+    <rect x="0" y="0" width="212" height="46" rx="20" fill="rgba(255,255,255,0.96)" stroke="#4A148C" stroke-width="1.5"/>
+    <text x="106" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="800" fill="#212121" text-anchor="middle">be busy</text>
+    <text x="106" y="30" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" font-weight="600" fill="#546E7A" text-anchor="middle">estar ocupado</text>
+    <text x="106" y="41" font-family="monospace" font-size="8" font-weight="700" fill="#4A148C" text-anchor="middle">[ tikye&apos; ]</text>
+  </g>
+</svg>
+
